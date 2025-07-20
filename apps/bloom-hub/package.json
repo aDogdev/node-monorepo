@@ -15,7 +15,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.13.1",
   "dependencies": {
     "@libsql/client": "^0.15.10",
     "dotenv": "^17.2.0",
