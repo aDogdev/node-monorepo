@@ -1,1 +1,3 @@
-console.log("Express project initialized");
+import { httpServer } from "./http";
+
+httpServer();
