@@ -2,13 +2,13 @@ import fs from "node:fs";
 import fsp from "node:fs/promises";
 
 function ls(): void {
-  fs.readdir(".", (e, files) => {
+  fs.readdir(".", (e: NodeJS.ErrnoException | null, files: string[]) => {
     if (e) {
       console.error(e);
       return;
     }
 
-    files.forEach((file) => {
+    files.forEach((file: string) => {
       console.log(file);
     });
     console.log("<-------------->");
@@ -18,12 +18,12 @@ function ls(): void {
 function lsp(): void {
   fsp
     .readdir(".")
-    .then((files) => {
-      files.forEach((file) => {
+    .then((files: string[]) => {
+      files.forEach((file: string) => {
         console.log(file);
       });
     })
-    .catch((e) => {
+    .catch((e: Error) => {
       console.error(e);
       return;
     })
