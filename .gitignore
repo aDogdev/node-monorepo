@@ -1,0 +1,29 @@
+# dependencies
+node_modules*
+.pnpm-store/
+
+# production
+dist/
+build/
+
+.turbo/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+.env.local
+
+# typescript
+*.tsbuildinfo
+
+# OS / IDEs
+.DS_Store
+.vscode/
+.idea/
+
