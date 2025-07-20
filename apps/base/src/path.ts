@@ -3,16 +3,16 @@ import path from "node:path";
 function pathJoin(): void {
   console.log(path.sep);
 
-  const filePath = path.join("home", "dev", "notes.txt");
+  const filePath: string = path.join("home", "dev", "notes.txt");
   console.log(filePath);
 
-  const base = path.basename("temp/adog/password.txt");
+  const base: string = path.basename("temp/adog/password.txt");
   console.log(base);
 
-  const filename = path.basename("temp/adog/password.txt", ".txt");
+  const filename: string = path.basename("temp/adog/password.txt", ".txt");
   console.log(filename);
 
-  const extension = path.extname("workouts.module.ts");
+  const extension: string = path.extname("workouts.module.ts");
   console.log(extension);
 }
 

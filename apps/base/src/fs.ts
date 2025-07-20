@@ -5,7 +5,7 @@ import fsp from "node:fs/promises";
 // const readFilePromise = promisify(fs.readFile)
 
 function fsStatSync(archivePath: string): void {
-  const stats = fs.statSync(archivePath);
+  const stats: fs.Stats = fs.statSync(archivePath);
 
   console.log(
     stats.isFile(),
@@ -30,11 +30,11 @@ function fsReadFileSync(
   firstArchivePath: string,
   secondArchivePath?: string,
 ): void {
-  const text = fs.readFileSync(firstArchivePath, "utf-8");
+  const text: string = fs.readFileSync(firstArchivePath, "utf-8");
   console.log(`sync: ${text}`);
 
   if (secondArchivePath) {
-    const text = fs.readFileSync(secondArchivePath, "utf-8");
+    const text: string = fs.readFileSync(secondArchivePath, "utf-8");
     console.log(`sync: ${text}`);
   }
 }
@@ -72,11 +72,11 @@ async function fsReadFileAwait(
   firstArchivePath: string,
   secondArchivePath?: string,
 ): Promise<void> {
-  const text = await fsp.readFile(firstArchivePath, "utf-8");
+  const text: string = await fsp.readFile(firstArchivePath, "utf-8");
   console.log(`await: ${text}`);
 
   if (secondArchivePath) {
-    const text = await fsp.readFile(secondArchivePath, "utf-8");
+    const text: string = await fsp.readFile(secondArchivePath, "utf-8");
     console.log(`await: ${text}`);
   }
 }
