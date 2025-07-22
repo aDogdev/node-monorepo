@@ -1,0 +1,25 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "name": "Push-ups",
+      "duration": 10,
+      "difficulty": "beginner",
+      "equipment": "none"
+    },
+    {
+      "id": 2,
+      "name": "Running",
+      "duration": 30,
+      "difficulty": "medium",
+      "equipment": "running shoes"
+    },
+    {
+      "id": 3,
+      "name": "Squats",
+      "duration": 15,
+      "difficulty": "beginner",
+      "equipment": "none"
+    }
+  ]
+}

@@ -1,3 +1,3 @@
-import { httpServer } from "./http";
+import { routing } from "./routing";
 
-httpServer();
+routing();
