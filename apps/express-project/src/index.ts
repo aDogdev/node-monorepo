@@ -1,3 +1,1 @@
-import { routing } from "./routing";
-
-routing();
+import "./express";
