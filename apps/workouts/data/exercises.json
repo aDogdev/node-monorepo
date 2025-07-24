@@ -1,147 +1,146 @@
-
 [
   {
-    "_id": "ex001",
+    "id": "ex001",
     "name": "Incline Smith Machine Press",
     "muscleGroup": ["chest", "shoulders"],
     "equipment": ["smith machine"],
     "description": "Chest press on an inclined bench using Smith machine"
   },
   {
-    "_id": "ex002",
+    "id": "ex002",
     "name": "Dips",
     "muscleGroup": ["chest", "triceps"],
     "equipment": ["parallel bars"],
     "description": "Bodyweight dipping exercise"
   },
   {
-    "_id": "ex003",
+    "id": "ex003",
     "name": "Flat Dumbbell Press",
     "muscleGroup": ["chest"],
     "equipment": ["dumbbells", "bench"],
     "description": "Chest press lying on flat bench"
   },
   {
-    "_id": "ex004",
+    "id": "ex004",
     "name": "Seated Dumbbell Shoulder Press",
     "muscleGroup": ["shoulders"],
     "equipment": ["dumbbells", "bench"],
     "description": "Overhead press while seated"
   },
   {
-    "_id": "ex005",
+    "id": "ex005",
     "name": "Low Cable Lateral Raises",
     "muscleGroup": ["shoulders"],
     "equipment": ["cable machine"],
     "description": "Lateral raises using low cable pulley"
   },
   {
-    "_id": "ex006",
+    "id": "ex006",
     "name": "Face Pull",
     "muscleGroup": ["shoulders", "back"],
     "equipment": ["cable machine"],
     "description": "Rear deltoid and upper back exercise"
   },
   {
-    "_id": "ex007",
+    "id": "ex007",
     "name": "Triceps Pushdowns",
     "muscleGroup": ["triceps"],
     "equipment": ["cable machine"],
     "description": "Triceps extension with rope attachment"
   },
   {
-    "_id": "ex008",
+    "id": "ex008",
     "name": "Pull-ups",
     "muscleGroup": ["back", "biceps"],
     "equipment": ["pull-up bar"],
     "description": "Bodyweight vertical pulling exercise"
   },
   {
-    "_id": "ex009",
+    "id": "ex009",
     "name": "Lat Pulldowns",
     "muscleGroup": ["back"],
     "equipment": ["cable machine"],
     "description": "Machine-assisted vertical pull"
   },
   {
-    "_id": "ex010",
+    "id": "ex010",
     "name": "Single-Arm Landmine Row",
     "muscleGroup": ["back"],
     "equipment": ["landmine", "barbell"],
     "description": "Unilateral row with barbell in landmine"
   },
   {
-    "_id": "ex011",
+    "id": "ex011",
     "name": "Preacher Curl",
     "muscleGroup": ["biceps"],
     "equipment": ["preacher bench", "EZ-bar"],
     "description": "Bicep curl with arm support"
   },
   {
-    "_id": "ex012",
+    "id": "ex012",
     "name": "Bayesian Curl",
     "muscleGroup": ["biceps"],
     "equipment": ["dumbbells"],
     "description": "Rotational bicep curl variation"
   },
   {
-    "_id": "ex013",
+    "id": "ex013",
     "name": "Machine Shrugs",
     "muscleGroup": ["traps"],
     "equipment": ["shrug machine"],
     "description": "Trapezius isolation exercise"
   },
   {
-    "_id": "ex014",
+    "id": "ex014",
     "name": "Single-Arm Farmer's Walk",
     "muscleGroup": ["forearms", "traps"],
     "equipment": ["kettlebell"],
     "description": "Unilateral loaded carry exercise"
   },
   {
-    "_id": "ex015",
+    "id": "ex015",
     "name": "Hack Squat",
     "muscleGroup": ["quadriceps", "glutes"],
     "equipment": ["hack squat machine"],
     "description": "Squat variation with back support"
   },
   {
-    "_id": "ex016",
+    "id": "ex016",
     "name": "Deadlift",
     "muscleGroup": ["hamstrings", "back"],
     "equipment": ["barbell"],
     "description": "Hip hinge lifting exercise"
   },
   {
-    "_id": "ex017",
+    "id": "ex017",
     "name": "Lying Leg Curl",
     "muscleGroup": ["hamstrings"],
     "equipment": ["leg curl machine"],
     "description": "Prone hamstring curl"
   },
   {
-    "_id": "ex018",
+    "id": "ex018",
     "name": "Leg Extensions",
     "muscleGroup": ["quadriceps"],
     "equipment": ["leg extension machine"],
     "description": "Quadriceps isolation exercise"
   },
   {
-    "_id": "ex019",
+    "id": "ex019",
     "name": "Machine Calf Raises",
     "muscleGroup": ["calves"],
     "equipment": ["calf raise machine"],
     "description": "Calf isolation exercise"
   },
   {
-    "_id": "ex020",
+    "id": "ex020",
     "name": "Hanging Leg Raises",
     "muscleGroup": ["abs"],
     "equipment": ["pull-up bar"],
     "description": "Core exercise hanging from bar"
   },
   {
-    "_id": "ex021",
+    "id": "ex021",
     "name": "Cable Crunch",
     "muscleGroup": ["abs"],
     "equipment": ["cable machine"],
