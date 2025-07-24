@@ -1,8 +1,10 @@
 import express from "express";
+import crypto from "node:crypto";
 import workouts from "../data/workouts.json";
 import exercises from "../data/exercises.json";
 
 const app = express();
+app.use(express.json());
 app.disable("x-powered-by");
 
 const PORT: string | number = process.env.PORT ?? 3000;
@@ -26,7 +28,7 @@ app.get("/workouts", (req, res) => {
 
 app.get("/workouts/:id", (req, res) => {
   const { id } = req.params;
-  const workout = workouts.find((workout) => workout._id === id);
+  const workout = workouts.find((workout) => workout.id === id);
   if (workout) return res.json(workout);
   res.status(404).json({ message: "workout not found" });
 });
@@ -46,9 +48,23 @@ app.get("/exercises", (req, res) => {
 
 app.get("/exercises/:id", (req, res) => {
   const { id } = req.params;
-  const exercise = exercises.find((exercise) => exercise._id === id);
+  const exercise = exercises.find((exercise) => exercise.id === id);
   if (exercise) return res.json(exercise);
   res.status(404).json({ message: "exercise not found" });
+});
+
+app.post("/exercises", (req, res) => {
+  const { name, muscleGroup, equipment, description } = req.body;
+
+  const newExercise = {
+    id: crypto.randomUUID(),
+    name,
+    muscleGroup,
+    equipment,
+    description: description ?? "no description",
+  };
+  exercises.push(newExercise);
+  res.status(201).json(newExercise);
 });
 
 app.listen(PORT, () => {
