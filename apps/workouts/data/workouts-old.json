@@ -1,0 +1,229 @@
+[
+  {
+    "id": "w001",
+    "name": "Chest Workout",
+    "description": "Upper body strength training",
+    "category": "strength",
+    "difficulty": "intermediate",
+    "duration": 65,
+    "exercises": [
+      {
+        "id": "ex001",
+        "name": "Incline Smith Machine Press",
+        "muscleGroup": ["chest", "shoulders"],
+        "sets": [
+          { "reps": 11, "weight": 60, "unit": "lb" },
+          { "reps": 7, "weight": 60, "unit": "lb" },
+          { "reps": 5, "weight": 60, "unit": "lb", "notes": "+2+2" }
+        ]
+      },
+      {
+        "id": "ex002",
+        "name": "Dips",
+        "muscleGroup": ["chest", "triceps"],
+        "sets": [{ "reps": 4 }, { "reps": 3 }, { "reps": 3 }]
+      },
+      {
+        "id": "ex003",
+        "name": "Flat Dumbbell Press",
+        "muscleGroup": ["chest"],
+        "sets": [
+          { "reps": 12, "weight": 25, "unit": "lb" },
+          { "reps": 12, "weight": 25, "unit": "lb" },
+          { "reps": 12, "weight": 25, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex004",
+        "name": "Seated Dumbbell Shoulder Press",
+        "muscleGroup": ["shoulders"],
+        "sets": [
+          { "reps": 11, "weight": 25, "unit": "lb" },
+          { "reps": 7, "weight": 25, "unit": "lb" },
+          { "reps": 6, "weight": 25, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex005",
+        "name": "Low Cable Lateral Raises",
+        "muscleGroup": ["shoulders"],
+        "sets": [
+          { "reps": 12, "weight": 2.5, "unit": "lb" },
+          { "reps": 9, "weight": 2.5, "unit": "lb" },
+          { "reps": 6, "weight": 2.5, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex006",
+        "name": "Face Pull",
+        "muscleGroup": ["shoulders", "back"],
+        "sets": [
+          { "reps": 12, "weight": 25, "unit": "lb" },
+          { "reps": 12, "weight": 25, "unit": "lb" },
+          { "reps": 12, "weight": 25, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex007",
+        "name": "Triceps Pushdowns",
+        "muscleGroup": ["triceps"],
+        "sets": [
+          { "reps": 12, "weight": 30, "unit": "lb" },
+          { "reps": 8, "weight": 30, "unit": "lb" },
+          { "reps": 6, "weight": 30, "unit": "lb" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "w002",
+    "name": "Back Workout",
+    "description": "Back and biceps development",
+    "category": "strength",
+    "difficulty": "intermediate",
+    "duration": 70,
+    "exercises": [
+      {
+        "id": "ex008",
+        "name": "Pull-ups",
+        "muscleGroup": ["back", "biceps"],
+        "sets": [{ "reps": 12 }]
+      },
+      {
+        "id": "ex009",
+        "name": "Lat Pulldowns",
+        "muscleGroup": ["back"],
+        "sets": [
+          { "reps": 12, "weight": 60, "unit": "lb" },
+          { "reps": 10, "weight": 60, "unit": "lb" },
+          { "reps": 9, "weight": 60, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex010",
+        "name": "Single-Arm Landmine Row",
+        "muscleGroup": ["back"],
+        "sets": [
+          { "reps": 12, "weight": 20, "unit": "lb" },
+          { "reps": 10, "weight": 20, "unit": "lb" },
+          { "reps": 8, "weight": 20, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex011",
+        "name": "Preacher Curl",
+        "muscleGroup": ["biceps"],
+        "sets": [
+          { "reps": 12, "weight": 30, "unit": "lb" },
+          { "reps": 8, "weight": 30, "unit": "lb" },
+          { "reps": 5, "weight": 30, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex012",
+        "name": "Bayesian Curl",
+        "muscleGroup": ["biceps"],
+        "sets": [
+          { "reps": 8, "weight": 10, "unit": "lb" },
+          { "reps": 6, "weight": 10, "unit": "lb" },
+          { "reps": 6, "weight": 10, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex013",
+        "name": "Machine Shrugs",
+        "muscleGroup": ["traps"],
+        "sets": [
+          { "reps": 12, "weight": 160, "unit": "lb" },
+          { "reps": 10, "weight": 160, "unit": "lb" },
+          { "reps": 8, "weight": 160, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex014",
+        "name": "Single-Arm Farmer's Walk",
+        "muscleGroup": ["forearms", "traps"],
+        "sets": [
+          { "reps": 50, "weight": 50, "unit": "lb" },
+          { "reps": 50, "weight": 50, "unit": "lb" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "w003",
+    "name": "Legs Workout",
+    "description": "Lower body and core training",
+    "category": "strength",
+    "difficulty": "intermediate",
+    "duration": 75,
+    "exercises": [
+      {
+        "id": "ex015",
+        "name": "Hack Squat",
+        "muscleGroup": ["quadriceps", "glutes"],
+        "sets": [
+          { "reps": 12, "weight": 60, "unit": "lb" },
+          { "reps": 10, "weight": 60, "unit": "lb" },
+          { "reps": 10, "weight": 60, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex016",
+        "name": "Deadlift",
+        "muscleGroup": ["hamstrings", "back"],
+        "sets": [
+          { "reps": 12, "weight": 90, "unit": "lb" },
+          { "reps": 10, "weight": 90, "unit": "lb" },
+          { "reps": 8, "weight": 90, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex017",
+        "name": "Lying Leg Curl",
+        "muscleGroup": ["hamstrings"],
+        "sets": [
+          { "reps": 12, "weight": 65, "unit": "lb" },
+          { "reps": 8, "weight": 65, "unit": "lb" },
+          { "reps": 6, "weight": 65, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex018",
+        "name": "Leg Extensions",
+        "muscleGroup": ["quadriceps"],
+        "sets": [
+          { "reps": 15, "weight": 55, "unit": "lb" },
+          { "reps": 12, "weight": 55, "unit": "lb" },
+          { "reps": 9, "weight": 55, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex019",
+        "name": "Machine Calf Raises",
+        "muscleGroup": ["calves"],
+        "sets": [
+          { "reps": 15, "weight": 120, "unit": "lb" },
+          { "reps": 12, "weight": 120, "unit": "lb" },
+          { "reps": 8, "weight": 120, "unit": "lb" }
+        ]
+      },
+      {
+        "id": "ex020",
+        "name": "Hanging Leg Raises",
+        "muscleGroup": ["abs"],
+        "sets": [{ "reps": 10 }, { "reps": 6 }]
+      },
+      {
+        "id": "ex021",
+        "name": "Cable Crunch",
+        "muscleGroup": ["abs"],
+        "sets": [
+          { "reps": 12, "weight": 40, "unit": "lb" },
+          { "reps": 10, "weight": 40, "unit": "lb" },
+          { "reps": 8, "weight": 40, "unit": "lb" }
+        ]
+      }
+    ]
+  }
+]

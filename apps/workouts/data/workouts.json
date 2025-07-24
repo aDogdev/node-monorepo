@@ -1,0 +1,187 @@
+[
+  {
+    "_id": "w001",
+    "name": "Chest & Shoulders Routine",
+    "description": "Focused chest and shoulder development",
+    "category": ["strength", "chest", "shoulders", "triceps"],
+    "difficulty": "intermediate",
+    "duration": 65,
+    "exercises": [
+      {
+        "exerciseId": "ex001",
+        "sets": [
+          { "reps": 11, "weight": 60, "unit": "lb" },
+          { "reps": 7, "weight": 60, "unit": "lb" },
+          { "reps": 5, "weight": 60, "unit": "lb", "notes": "+2+2 assisted" }
+        ]
+      },
+      {
+        "exerciseId": "ex002",
+        "sets": [{ "reps": 4 }, { "reps": 3 }, { "reps": 3 }]
+      },
+      {
+        "exerciseId": "ex003",
+        "sets": [
+          { "reps": 12, "weight": 25, "unit": "lb" },
+          { "reps": 12, "weight": 25, "unit": "lb" },
+          { "reps": 12, "weight": 25, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex004",
+        "sets": [
+          { "reps": 11, "weight": 25, "unit": "lb" },
+          { "reps": 7, "weight": 25, "unit": "lb" },
+          { "reps": 6, "weight": 25, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex005",
+        "sets": [
+          { "reps": 12, "weight": 2.5, "unit": "lb" },
+          { "reps": 9, "weight": 2.5, "unit": "lb" },
+          { "reps": 6, "weight": 2.5, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex006",
+        "sets": [
+          { "reps": 12, "weight": 25, "unit": "lb" },
+          { "reps": 12, "weight": 25, "unit": "lb" },
+          { "reps": 12, "weight": 25, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex007",
+        "sets": [
+          { "reps": 12, "weight": 30, "unit": "lb" },
+          { "reps": 8, "weight": 30, "unit": "lb" },
+          { "reps": 6, "weight": 30, "unit": "lb" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "w002",
+    "name": "Back & Biceps Routine",
+    "description": "Back thickness and bicep development",
+    "category": ["strength", "back", "biceps", "core"],
+    "difficulty": "intermediate",
+    "duration": 70,
+    "exercises": [
+      {
+        "exerciseId": "ex008",
+        "sets": [{ "reps": 12 }]
+      },
+      {
+        "exerciseId": "ex009",
+        "sets": [
+          { "reps": 12, "weight": 60, "unit": "lb" },
+          { "reps": 10, "weight": 60, "unit": "lb" },
+          { "reps": 9, "weight": 60, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex010",
+        "sets": [
+          { "reps": 12, "weight": 20, "unit": "lb" },
+          { "reps": 10, "weight": 20, "unit": "lb" },
+          { "reps": 8, "weight": 20, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex011",
+        "sets": [
+          { "reps": 12, "weight": 30, "unit": "lb" },
+          { "reps": 8, "weight": 30, "unit": "lb" },
+          { "reps": 5, "weight": 30, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex012",
+        "sets": [
+          { "reps": 8, "weight": 10, "unit": "lb" },
+          { "reps": 6, "weight": 10, "unit": "lb" },
+          { "reps": 6, "weight": 10, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex013",
+        "sets": [
+          { "reps": 12, "weight": 160, "unit": "lb" },
+          { "reps": 10, "weight": 160, "unit": "lb" },
+          { "reps": 8, "weight": 160, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex014",
+        "sets": [
+          { "reps": 50, "weight": 50, "unit": "lb", "notes": "per arm" },
+          { "reps": 50, "weight": 50, "unit": "lb", "notes": "per arm" }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "w003",
+    "name": "Legs & Core Routine",
+    "description": "Lower body strength and core stability",
+    "category": ["strength", "legs", "core"],
+    "difficulty": "intermediate",
+    "duration": 75,
+    "exercises": [
+      {
+        "exerciseId": "ex015",
+        "sets": [
+          { "reps": 12, "weight": 60, "unit": "lb" },
+          { "reps": 10, "weight": 60, "unit": "lb" },
+          { "reps": 10, "weight": 60, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex016",
+        "sets": [
+          { "reps": 12, "weight": 90, "unit": "lb" },
+          { "reps": 10, "weight": 90, "unit": "lb" },
+          { "reps": 8, "weight": 90, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex017",
+        "sets": [
+          { "reps": 12, "weight": 65, "unit": "lb" },
+          { "reps": 8, "weight": 65, "unit": "lb" },
+          { "reps": 6, "weight": 65, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex018",
+        "sets": [
+          { "reps": 15, "weight": 55, "unit": "lb" },
+          { "reps": 12, "weight": 55, "unit": "lb" },
+          { "reps": 9, "weight": 55, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex019",
+        "sets": [
+          { "reps": 15, "weight": 120, "unit": "lb" },
+          { "reps": 12, "weight": 120, "unit": "lb" },
+          { "reps": 8, "weight": 120, "unit": "lb" }
+        ]
+      },
+      {
+        "exerciseId": "ex020",
+        "sets": [{ "reps": 10 }, { "reps": 6 }]
+      },
+      {
+        "exerciseId": "ex021",
+        "sets": [
+          { "reps": 12, "weight": 40, "unit": "lb" },
+          { "reps": 10, "weight": 40, "unit": "lb" },
+          { "reps": 8, "weight": 40, "unit": "lb" }
+        ]
+      }
+    ]
+  }
+]
