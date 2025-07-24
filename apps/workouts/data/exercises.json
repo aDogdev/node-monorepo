@@ -64,16 +64,16 @@
   },
   {
     "id": "ex010",
-    "name": "Single-Arm Landmine Row",
+    "name": "Single-Arm rowing",
     "muscleGroup": ["back"],
-    "equipment": ["landmine", "barbell"],
-    "description": "Unilateral row with barbell in landmine"
+    "equipment": ["cable machine"],
+    "description": "Unilateral row in a cable machine"
   },
   {
     "id": "ex011",
     "name": "Preacher Curl",
     "muscleGroup": ["biceps"],
-    "equipment": ["preacher bench", "EZ-bar"],
+    "equipment": ["preacher bench", "barbell"],
     "description": "Bicep curl with arm support"
   },
   {
@@ -94,7 +94,7 @@
     "id": "ex014",
     "name": "Single-Arm Farmer's Walk",
     "muscleGroup": ["forearms", "traps"],
-    "equipment": ["kettlebell"],
+    "equipment": ["dumbbells"],
     "description": "Unilateral loaded carry exercise"
   },
   {
