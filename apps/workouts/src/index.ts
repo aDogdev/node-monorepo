@@ -1,6 +1,9 @@
 import express from "express";
 import crypto from "node:crypto";
-import { validateExercise } from "../schemas/exercises";
+import {
+  validateExercise,
+  validatePartialExercise,
+} from "../schemas/exercises";
 import workouts from "../data/workouts.json";
 import exercises from "../data/exercises.json";
 
@@ -67,6 +70,28 @@ app.post("/exercises", (req, res) => {
   };
   exercises.push(newExercise);
   res.status(201).json(newExercise);
+});
+
+app.patch("/exercises/:id", (req, res) => {
+  const result = validatePartialExercise(req.body);
+
+  if (!result.success) {
+    return res.status(422).json({ error: JSON.parse(result.error.message) });
+  }
+
+  const { id } = req.params;
+  const exerciseIndex = exercises.findIndex((exercise) => exercise.id === id);
+
+  if (exerciseIndex === -1)
+    return res.status(404).json({ message: "exercise not found" });
+
+  const updateExercise = {
+    ...exercises[exerciseIndex],
+    ...result.data,
+  };
+
+  exercises[exerciseIndex] = updateExercise;
+  return res.json(updateExercise);
 });
 
 app.listen(PORT, () => {

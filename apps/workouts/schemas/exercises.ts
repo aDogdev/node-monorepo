@@ -44,4 +44,8 @@ function validateExercise(object: unknown) {
   return exerciseSchema.safeParse(object);
 }
 
-export { validateExercise };
+function validatePartialExercise(object: unknown) {
+  return exerciseSchema.partial().safeParse(object);
+}
+
+export { validateExercise, validatePartialExercise };
