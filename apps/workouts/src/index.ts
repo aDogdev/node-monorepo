@@ -1,5 +1,6 @@
 import express from "express";
 import crypto from "node:crypto";
+import cors from "cors";
 import {
   validateExercise,
   validatePartialExercise,
@@ -9,6 +10,7 @@ import exercises from "../data/exercises.json";
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 app.disable("x-powered-by");
 
 const PORT: string | number = process.env.PORT ?? 3000;
