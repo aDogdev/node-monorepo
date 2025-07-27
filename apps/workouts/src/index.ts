@@ -94,6 +94,19 @@ app.patch("/exercises/:id", (req, res) => {
   return res.json(updateExercise);
 });
 
+app.delete("/exercises/:id", (req, res) => {
+  const { id } = req.params;
+  const exerciseIndex = exercises.findIndex((exercise) => exercise.id === id);
+
+  if (exerciseIndex === -1) {
+    return res.status(404).json({ message: "exercise not found" });
+  }
+
+  exercises.splice(exerciseIndex, 1);
+
+  return res.json({ message: "exercise deleted" });
+});
+
 app.listen(PORT, () => {
   console.log(`server listening on port http://localhost:${PORT}`);
 });
