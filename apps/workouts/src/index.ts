@@ -1,5 +1,6 @@
 import express from "express";
 import crypto from "node:crypto";
+import { validateExercise } from "../schemas/exercises";
 import workouts from "../data/workouts.json";
 import exercises from "../data/exercises.json";
 
@@ -54,14 +55,15 @@ app.get("/exercises/:id", (req, res) => {
 });
 
 app.post("/exercises", (req, res) => {
-  const { name, muscleGroup, equipment, description } = req.body;
+  const result = validateExercise(req.body);
 
-  const newExercise = {
+  if (result.error) {
+    return res.status(422).json({ error: JSON.parse(result.error.message) });
+  }
+
+  const newExercise: any = {
     id: crypto.randomUUID(),
-    name,
-    muscleGroup,
-    equipment,
-    description: description ?? "no description",
+    ...result.data,
   };
   exercises.push(newExercise);
   res.status(201).json(newExercise);
